@@ -1,0 +1,158 @@
+{
+    "forms": [
+        {
+            "id": 1,
+            "title": "Break-Fix Hardware Form",
+            "fields": [
+                {
+                    "type": "dropdown",
+                    "label": "Select the Hardware Item that is causing the issue",
+                    "required": true,
+                    "check": "main"
+                },
+                {
+                    "type": "text",
+                    "label": "If 'Other' selected, please provide information here",
+                    "visible": false,
+                    "check": "other",
+                    "other": 1
+                },
+                {
+                    "type": "dropdown",
+                    "label": "Select the type of problem you are having",
+                    "required": true,
+                    "check": "sub"
+                },
+                {
+                    "type": "text",
+                    "label": "If 'Other' selected, please provide information here",
+                    "visible": false,
+                    "check": "other",
+                    "other": 2
+                },
+                {
+                    "type": "text",
+                    "label": "Please include your full name below",
+                    "check": "name",
+                    "required": true
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Break-Fix Software Form",
+            "fields": [
+                {
+                    "type": "dropdown",
+                    "label": "Select the Software that is causing the issue",
+                    "required": true,
+                    "check": "main"
+                },
+                {
+                    "type": "text",
+                    "label": "If 'Other' selected, please provide information here",
+                    "visible": false,
+                    "check": "other",
+                    "other": 1
+                },
+                {
+                    "type": "dropdown",
+                    "label": "Select the type of problem you are having",
+                    "required": true,
+                    "check": "sub"
+                },
+                {
+                    "type": "text",
+                    "label": "If 'Other' selected, please provide information here",
+                    "visible": false,
+                    "check": "other",
+                    "other": 2
+                },
+                {
+                    "type": "text",
+                    "label": "Please include your full name below",
+                    "check": "name",
+                    "required": true
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Requests Hardware Form",
+            "fields": [
+                {
+                    "type": "dropdown",
+                    "label": "Select the Hardware Item that you are requesting",
+                    "required": true,
+                    "check": "main"
+                },
+                {
+                    "type": "text",
+                    "label": "If 'Other' selected, please provide information here",
+                    "visible": false,
+                    "check": "other",
+                    "other": 1
+                },
+                {
+                    "type": "textarea",
+                    "label": "Please provide a description For your request ",
+                    "required": true,
+                    "maxlength": 250
+                },
+                {
+                    "type": "text",
+                    "label": "Please include your full name below",
+                    "check": "name",
+                    "required": true
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Requests Software Form",
+            "fields": [
+                {
+                    "type": "dropdown",
+                    "label": "Select the Software Or Permissions that you are requesting",
+                    "required": true,
+                    "check": "main"
+                },
+                {
+                    "type": "text",
+                    "label": "If 'Other' selected, please provide information here",
+                    "visible": false,
+                    "check": "other",
+                    "other": 1
+                },
+                {
+                    "type": "textarea",
+                    "label": "Please provide a description For your request ",
+                    "required": true,
+                    "maxlength": 250
+                },
+                {
+                    "type": "text",
+                    "label": "Please include your full name below",
+                    "check": "name",
+                    "required": true
+                },
+                {
+                    "type": "submit",
+                    "label": "Submit"
+                }
+            ]
+        }
+    ]
+}
